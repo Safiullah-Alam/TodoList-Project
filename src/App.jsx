@@ -1,11 +1,15 @@
 // import { useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-2xl bg-slate-400 text-red-500'>Hello World</h1>
+    <Navbar/>
+    <div className='container mx-auto my-5 p-5 bg-violet-100 rounded-xl'>
+      <h2 className='text-lg font-bold'>Your Todos</h2>
+    </div>
     </>
   )
 }
